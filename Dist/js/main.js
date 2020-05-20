@@ -19,7 +19,7 @@ function toggleMenu() {
         navItems.forEach(item => item.classList.add('show'));
 
         //Set Menu State
-        showMenu = true;
+        showMenu = 1;
     } else {
         menuBtn.classList.remove('close');
         menu.classList.remove('show');
