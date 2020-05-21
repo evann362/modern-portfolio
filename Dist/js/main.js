@@ -1,4 +1,6 @@
 //Select DOM Items
+var True = true;
+var False = false;
 const menuBtn = document.querySelector('.menu-btn');
 const menu = document.querySelector('.menu');
 const menuNav = document.querySelector('.menu-nav');
@@ -19,7 +21,7 @@ function toggleMenu() {
         navItems.forEach(item => item.classList.add('show'));
 
         //Set Menu State
-        showMenu = 1;
+        showMenu = true;
     } else {
         menuBtn.classList.remove('close');
         menu.classList.remove('show');
