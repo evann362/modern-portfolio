@@ -195,7 +195,7 @@ main {
   .projects img {
     width: 100%;
     border: 15px solid transparent; 
-    border-image: url(../img/frame2.png) 30 stretch; 
+    border-image: url(../img/frame2.PNG) 30 stretch; 
   }
     .projects img:hover {
       opacity: 0.5;
