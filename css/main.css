@@ -107,11 +107,11 @@ body {
   line-height: 1.5; }
   body#bg-img {
     background: url(../img/background.JPG);
-    background-attachment: fixed;
+    background-attachment: absolute;
     background-size: cover; }
     body#bg-img:after {
       content: '';
-      position: absolute;
+      position: fixed;
       top: 0;
       right: 0;
       width: 100%;
